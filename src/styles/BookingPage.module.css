@@ -8,6 +8,9 @@
     justify-content: center;
     align-items: center;
 }
+.heading{
+  padding-bottom: 2rem;
+}
 
 .container2{
   border-radius: 10px;
@@ -24,4 +27,9 @@
 
 .formbutton{
   padding-top: 1rem;
+}
+
+
+@media(max-width: 820px){
+  
 }

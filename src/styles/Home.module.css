@@ -1,0 +1,62 @@
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    transition:  0.3s ease;
+}
+.button:hover{
+    border-color: red;
+    background-color: rgb(249, 87, 87) ;
+}
+
+.article {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.picture {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.header {
+    font-size: 6.5rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+}
+
+@media(min-width: 1000px ) and (max-width: 1500px){
+    .header{ 
+        bottom: 30%;
+        font-size : 4rem;
+ }
+}
+@media(min-width: 600px ) and (max-width: 1000px){
+    .header{ 
+        bottom: 40%;
+        font-size : 2.5rem;
+ }
+}
+@media(min-width: 300px ) and (max-width: 600px){
+    .header{ 
+        bottom: 20%;
+        font-size : 1.5rem;
+    }
+    .picture{
+        width: 100vw;
+        height: 70vh;
+    }
+}
+
+
